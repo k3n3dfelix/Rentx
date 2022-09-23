@@ -1,5 +1,5 @@
 # RentX - Aplicativo para aluguel de carros
-O RentX é uma solução simples e eficaz para gerenciar suas alugueis de veiculos, permitindo um gerenciamento completo das locações.
+O RentX é uma solução simples e eficaz para gerenciar seus alugueis de veiculos, permitindo um gerenciamento completo das locações.
 
 <img src="https://github.com/k3n3dfelix/Rentx/blob/main/screens/layouts.PNG" />
 
