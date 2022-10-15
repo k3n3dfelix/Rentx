@@ -8,12 +8,17 @@ import { Scheduling } from '../screens/Scheduling';
 import { SchedulingDetails } from '../screens/SchedulingDetails';
 import { SchedulingComplete } from '../screens/SchedulingComplete';
 import { MyCars } from '../screens/MyCars';
+import { SigIn } from '../screens/SigIn';
 
 const { Navigator, Screen } = createStackNavigator();
 
 export function StackRoutes(){
   return(
-    <Navigator headerMode="none">
+    <Navigator headerMode="none" initialRouteName="SigIn">
+       <Screen
+        name="SigIn"
+        component={SigIn}
+      />
       <Screen
         name="Home"
         component={Home}
