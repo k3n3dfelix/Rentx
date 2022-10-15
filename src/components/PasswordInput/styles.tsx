@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components/native';
 import { RFValue } from 'react-native-responsive-fontsize';
+import styled, { css } from 'styled-components/native';
 import { TextInput } from 'react-native'
 import theme from '../../styles/theme';
 
@@ -9,7 +9,8 @@ interface Props {
 
 export const Container = styled.View`
   flex-direction: row;
-  margin-bottom: 8px;
+
+  
 `;
 
 export const IconContainer = styled.View<Props>`
