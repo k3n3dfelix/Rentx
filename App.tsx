@@ -15,12 +15,14 @@ import {
 import AppLoading from 'expo-app-loading';
 import {ThemeProvider} from 'styled-components'
 
+import { AppProvider } from './src/hooks';
+
 import { Home } from './src/screens/Home';
 import theme from './src/styles/theme';
 import { CarDetails } from './src/screens/CarDetails';
 import { Scheduling } from './src/screens/Scheduling';
 import { SchedulingDetails } from './src/screens/SchedulingDetails';
-import { SchedulingComplete } from './src/screens/Confirmation';
+import { Confirmation } from './src/screens/Confirmation';
 
 import { Routes } from './src/routes';
 
@@ -39,7 +41,9 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Routes/>
+      <AppProvider>
+        <Routes/>
+      </AppProvider>
     </ThemeProvider>
     
     )
